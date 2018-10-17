@@ -20,4 +20,10 @@
         android:text="Self-Contained motion scene"
         android:onClick="openScene02"/>
 
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image Transition"
+        android:onClick="openImageTransition"/>
+
 </LinearLayout>

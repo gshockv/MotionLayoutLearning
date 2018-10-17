@@ -20,6 +20,10 @@ class MenuActivity : AppCompatActivity() {
     fun openScene02(v: View) {
         startActivity<Scene02Activity>()
     }
+
+    fun openImageTransition(v: View) {
+        startActivity<ImageTransitionActivity>()
+    }
 }
 
 inline fun <reified T : Activity> Context.startActivity() {
