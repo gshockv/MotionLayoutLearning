@@ -11,7 +11,13 @@
     <com.google.android.material.button.MaterialButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="First Scene"
+        android:text="Scene with layouts"
         android:onClick="openFirstScene"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Self-Contained motion scene"
+        android:onClick="openScene02"/>
 
 </LinearLayout>

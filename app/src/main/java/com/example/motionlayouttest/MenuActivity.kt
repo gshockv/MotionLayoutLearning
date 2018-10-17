@@ -16,6 +16,10 @@ class MenuActivity : AppCompatActivity() {
     fun openFirstScene(v: View) {
         startActivity<Scene01Activity>()
     }
+
+    fun openScene02(v: View) {
+        startActivity<Scene02Activity>()
+    }
 }
 
 inline fun <reified T : Activity> Context.startActivity() {
