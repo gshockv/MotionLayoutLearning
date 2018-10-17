@@ -28,6 +28,10 @@ class MenuActivity : AppCompatActivity() {
     fun openMeridianSunset(v: View) {
         startActivity<MeridianSunsetActivity>()
     }
+
+    fun openKeyFrameSimple(v: View) {
+        startActivity<KeyFrameActivity>()
+    }
 }
 
 inline fun <reified T : Activity> Context.startActivity() {

@@ -32,4 +32,10 @@
         android:text="Meridian Sunset"
         android:onClick="openMeridianSunset"/>
 
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KeyFrame Simple"
+        android:onClick="openKeyFrameSimple"/>
+
 </LinearLayout>

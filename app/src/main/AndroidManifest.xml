@@ -21,6 +21,7 @@
         <activity android:name=".Scene02Activity" />
         <activity android:name=".ImageTransitionActivity" />
         <activity android:name=".MeridianSunsetActivity" />
+        <activity android:name=".KeyFrameActivity" />
 
     </application>
 
