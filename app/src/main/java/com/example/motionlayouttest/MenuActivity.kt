@@ -24,6 +24,10 @@ class MenuActivity : AppCompatActivity() {
     fun openImageTransition(v: View) {
         startActivity<ImageTransitionActivity>()
     }
+
+    fun openMeridianSunset(v: View) {
+        startActivity<MeridianSunsetActivity>()
+    }
 }
 
 inline fun <reified T : Activity> Context.startActivity() {
